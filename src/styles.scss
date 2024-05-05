@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+$heading-text-color : #FFE400;
+
+$primary-color : rgb(0, 0, 0);
+$secondary-color : rgb(75, 68, 68);
+
+$button-border-color : #c5cfc9;;
+
+body { 
+    padding-top: 50px; 
+  }
+
+  .navbar-dark .navbar-brand {
+    color: $heading-text-color;
+}
+
+.list-group-item.active {
+    color: $heading-text-color;
+    background-color: $primary-color;
+    border-color: $button-border-color;
+}
+
+.btn-primary {
+  color:$heading-text-color;
+  background-color: $primary-color;
+  border-color: $button-border-color;
+}
+
+.btn-light {
+border-color: $button-border-color;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: $secondary-color;
+  border-color: $button-border-color;
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #fff;
+  background-color: $secondary-color;
+  border-color: $button-border-color;
+}
+
+.form-control {
+  border-color: $heading-text-color;
+}
